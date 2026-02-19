@@ -1,3 +1,17 @@
 theme: jekyll-theme-minimal
 title: LJS24's Blog
 description: study, project, report
+lang: ko-KR
+timezone: Asia/Seoul
+markdown: kramdown
+encoding: utf-8
+permalink: /:categories/:year/:month/:day/:title/
+exclude:
+  - templates
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
