@@ -35,7 +35,7 @@ jobs:
       - name: Link Check (internal/offline)
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --offline --no-progress --exclude-mail ./_site ./README.md ./docs
+          args: --offline --no-progress ./_site ./README.md ./docs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
