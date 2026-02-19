@@ -1,5 +1,5 @@
 ---
-title: "How To Write A Learning Note"
+title: "TEMPLATE-How To Write A Learning Note"
 date: 2026-02-19
 categories: [learn]
 tags: [writing, note]

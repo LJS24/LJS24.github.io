@@ -1,5 +1,5 @@
 ---
-title: "Research Report Baseline"
+title: "TEMPLATE-Research Report Baseline"
 date: 2026-02-19
 categories: [research]
 tags: [methodology, report]
