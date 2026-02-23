@@ -7,10 +7,10 @@ title: Home
 {% assign project_posts = site.posts | where_exp: "post", "post.categories contains 'projects'" %}
 
 <section class="hero-card">
-  <p class="hero-label">Research-driven Engineering Blog</p>
+  <p class="hero-label">Research-driven Tech Blog</p>
   <h2>A technical journal for learning notes, research reports, and project sharing.</h2>
   <p class="hero-text">
-    This blog follows evidence-based documentation. Each post prioritizes reproducible information and verifiable sources.
+    Posts on this blog are based on personal learning, research, and development. There may be expressive and technical deficiencies.
   </p>
   <div class="hero-actions">
     <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
