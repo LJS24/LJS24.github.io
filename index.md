@@ -14,7 +14,7 @@ title: Home
   </p>
   <div class="hero-actions">
     <a class="btn btn-ghost" href="{{ '/learn/' | relative_url }}">Explore Learning</a>
-    <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
+    <a class="btn btn-ghost" href="{{ '/research/' | relative_url }}">Explore Research</a>
     <a class="btn btn-ghost" href="{{ '/projects/' | relative_url }}">Explore Projects</a>
   </div>
   <ul class="hero-metrics">
