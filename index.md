@@ -13,9 +13,9 @@ title: Home
     Posts on this blog are based on personal learning, research, and development. There may be expressive and technical deficiencies.
   </p>
   <div class="hero-actions">
-    <a class="btn btn-ghost" href="{{ '/learn/' | relative_url }}">Explore Learning</a>
-    <a class="btn btn-ghost" href="{{ '/research/' | relative_url }}">Explore Research</a>
-    <a class="btn btn-ghost" href="{{ '/projects/' | relative_url }}">Explore Projects</a>
+    <a class="btn btn-primary" href="{{ '/learn/' | relative_url }}">Explore Learning</a>
+    <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
+    <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Explore Projects</a>
   </div>
   <ul class="hero-metrics">
     <li><strong>{{ learn_posts | size }}</strong><span>Learning Notes</span></li>
