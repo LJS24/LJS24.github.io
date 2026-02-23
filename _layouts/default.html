@@ -15,15 +15,22 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p class="site-description">{{ site.description }}</p>
+      <div class="container header-inner">
+        <div class="brand-block">
+          <p class="brand-kicker">Knowledge Journal</p>
+          <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+          <p class="site-description">{{ site.description }}</p>
+        </div>
         {% include nav.html %}
       </div>
     </header>
 
-    <main class="container">
+    <main class="container page-shell">
       {{ content }}
     </main>
+
+    <footer class="container site-footer">
+      <p>Built with GitHub Pages. Structured for learning, research, and project sharing.</p>
+    </footer>
   </body>
 </html>

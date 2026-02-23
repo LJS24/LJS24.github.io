@@ -1,6 +1,6 @@
-<nav class="site-nav">
-  <a href="{{ '/' | relative_url }}">Home</a>
-  <a href="{{ '/learn/' | relative_url }}">Learn</a>
-  <a href="{{ '/research/' | relative_url }}">Research</a>
-  <a href="{{ '/projects/' | relative_url }}">Projects</a>
+<nav class="site-nav" aria-label="Main Navigation">
+  <a class="nav-link{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+  <a class="nav-link{% if page.url == '/learn/' %} is-active{% endif %}" href="{{ '/learn/' | relative_url }}">Learn</a>
+  <a class="nav-link{% if page.url == '/research/' %} is-active{% endif %}" href="{{ '/research/' | relative_url }}">Research</a>
+  <a class="nav-link{% if page.url == '/projects/' %} is-active{% endif %}" href="{{ '/projects/' | relative_url }}">Projects</a>
 </nav>
