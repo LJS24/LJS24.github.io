@@ -8,22 +8,22 @@ summary: "A baseline project post with decisions, implementation, and evaluation
 ---
 
 ## Problem
-Define user need and constraints.
+문제인식, 요구사항, 제약조건
 
 ## Architecture
-Explain system boundaries and key modules.
+시스템 아키텍처, 기능 설명  
 
 ## Implementation
-Summarize core logic and important tradeoffs.
+주요 로직, 의존성 등의 설정, 
 
 ## Metrics And Evaluation
-Add objective metrics and benchmark context.
+테스트, 지표, 평가
 
 ## Retrospective
-State what worked, what failed, and why.
+긍정적 결과, 부정적 결과, 원인 분석 
 
 ## Next Steps
-List short, testable follow-up items.
+현황 정리, 향후 계획
 
 ## References
 - [Repository or official docs](https://example.com)

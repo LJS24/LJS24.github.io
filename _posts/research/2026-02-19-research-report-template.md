@@ -7,19 +7,19 @@ summary: "A minimal, reproducible structure for a research-style post."
 ---
 
 ## Abstract
-State problem, method, and result in three sentences.
+State problem, method, result 
 
 ## Problem Statement
-Describe scope and measurable goal.
+scope description, measurable goal
 
 ## Method
-Describe dataset, environment, and procedure.
+dataset description, environment, procedure
 
 ## Results
-Show metric values and interpretation.
+metric values, interpretation.
 
 ## Threats To Validity
-List assumptions and potential biases.
+assumptions list, potential biases
 
 ## Reproducibility
 - Environment:
