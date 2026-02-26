@@ -1,5 +1,5 @@
 ---
-title: "TEMPLATE-Project Sharing Baseline"
+title: "TEMPLATE-Project Sharing 개요"
 date: 2026-02-19
 categories: [projects]
 tags: [architecture, implementation]
