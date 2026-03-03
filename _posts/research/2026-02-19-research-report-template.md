@@ -3,7 +3,7 @@ title: "TEMPLATE-Research Report 개요"
 date: 2026-02-19
 categories: [research]
 tags: [methodology, report]
-summary: "A minimal, reproducible structure for a research-style post."
+summary: "Project Sharing 작성에 대한 개요와 게시물 구조에 대한 예시입니다."
 ---
 
 ## Abstract

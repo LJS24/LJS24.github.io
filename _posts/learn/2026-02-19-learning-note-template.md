@@ -4,7 +4,7 @@ date: 2026-02-19
 categories: [learn]
 tags: [writing, note]
 level: beginner
-summary: "A baseline structure for documenting what you learned with evidence."
+summary: "Learning note 작성에 대한 개요와 게시물 구조에 대한 예시입니다."
 ---
 
 ## What I Learned

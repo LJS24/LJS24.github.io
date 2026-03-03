@@ -4,7 +4,7 @@ date: 2026-02-19
 categories: [projects]
 tags: [architecture, implementation]
 repo: "https://github.com/yourname/yourrepo"
-summary: "A baseline project post with decisions, implementation, and evaluation."
+summary: "Project Sharing 작성에 대한 개요와 게시물 구조에 대한 예시입니다."
 ---
 
 ## Problem
