@@ -1,5 +1,5 @@
 ---
-title: "TEMPLATE-Leearning note 개요"
+title: "TEMPLATE-Learning note 개요"
 date: 2026-02-19
 categories: [learn]
 tags: [writing, note]
