@@ -14,7 +14,7 @@ summary: "Project Sharing 작성에 대한 개요와 게시물 구조에 대한 
 시스템 아키텍처, 기능 설명  
 
 ## Implementation
-주요 로직, 의존성 등의 설정, 
+주요 로직, 의존성 등의 설정
 
 ## Metrics And Evaluation
 테스트, 지표, 평가
