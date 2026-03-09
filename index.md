@@ -5,6 +5,9 @@ title: Home
 {% assign learn_posts = site.posts | where_exp: "post", "post.categories contains 'learn'" %}
 {% assign research_posts = site.posts | where_exp: "post", "post.categories contains 'research'" %}
 {% assign project_posts = site.posts | where_exp: "post", "post.categories contains 'projects'" %}
+{% assign latest_learn_posts = learn_posts | slice: 0, 3 %}
+{% assign latest_research_posts = research_posts | slice: 0, 3 %}
+{% assign latest_project_posts = project_posts | slice: 0, 3 %}
 
 <section class="hero-card">
   <p class="hero-label">Research-driven Tech Blog</p>
@@ -26,24 +29,24 @@ title: Home
 
 <section class="section-card">
   <div class="section-head">
-    <h2>Learning Notes</h2>
+    <h2>Learning Notes-Latest</h2>
     <a class="text-link" href="{{ '/learn/' | relative_url }}">View All</a>
   </div>
-  {% include post-list.html posts=learn_posts empty_message="No learning notes yet." %}
+  {% include post-list.html posts=latest_learn_posts empty_message="No learning notes yet." %}
 </section>
 
 <section class="section-card">
   <div class="section-head">
-    <h2>Research Reports</h2>
+    <h2>Research Reports-Latest</h2>
     <a class="text-link" href="{{ '/research/' | relative_url }}">View All</a>
   </div>
-  {% include post-list.html posts=research_posts empty_message="No research reports yet." %}
+  {% include post-list.html posts=latest_research_posts empty_message="No research reports yet." %}
 </section>
 
 <section class="section-card">
   <div class="section-head">
-    <h2>Project Sharing</h2>
+    <h2>Project Sharing-Latest</h2>
     <a class="text-link" href="{{ '/projects/' | relative_url }}">View All</a>
   </div>
-  {% include post-list.html posts=project_posts empty_message="No project posts yet." %}
+  {% include post-list.html posts=latest_project_posts empty_message="No project posts yet." %}
 </section>
