@@ -298,6 +298,72 @@ a:hover {
   font-size: 0.88rem;
 }
 
+.post-content h2,
+.post-content h3 {
+  letter-spacing: -0.02em;
+}
+
+.post-content p,
+.post-content li {
+  font-size: 1rem;
+}
+
+.post-content code {
+  background: #f3f6fb;
+  border: 1px solid #dbe7f5;
+  border-radius: 8px;
+  padding: 0.12rem 0.38rem;
+  font-size: 0.92em;
+}
+
+.post-content pre {
+  background: #0f172a;
+  color: #e5eefc;
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.post-content pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.4rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+}
+
+.post-content thead th {
+  background: linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%);
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.85rem 0.95rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.post-content tbody tr:nth-child(even) {
+  background: #fbfdff;
+}
+
+.post-content tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
@@ -318,5 +384,36 @@ a:hover {
 
   .hero-metrics {
     grid-template-columns: 1fr;
+  }
+
+  .post-content table,
+  .post-content thead,
+  .post-content tbody,
+  .post-content tr,
+  .post-content th,
+  .post-content td {
+    display: block;
+  }
+
+  .post-content thead {
+    display: none;
+  }
+
+  .post-content table {
+    border-radius: 14px;
+  }
+
+  .post-content tr {
+    padding: 0.35rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .post-content tr:last-child {
+    border-bottom: 0;
+  }
+
+  .post-content td {
+    border-bottom: 0;
+    padding: 0.45rem 0.9rem;
   }
 }

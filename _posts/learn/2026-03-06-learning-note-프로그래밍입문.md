@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "프로그래밍입문 정리-1"
 date: 2026-03-06
 categories: [learn]
