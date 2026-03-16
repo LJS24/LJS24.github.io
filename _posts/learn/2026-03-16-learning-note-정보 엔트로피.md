@@ -34,6 +34,11 @@ summary: "정보 엔트로피 학습내용 정리"
 - 1948년 벨 연구소의 클로드 섀넌Claude Shannon이 발표한, “A mathematical theory of communication” 이라는 논문에는 Entropy, mutual information이라는 
 두 가지 물리량이 제시되었다.
 
+- Entropy:
+    - 2가지 가능성을 지닌 무작위 변수 $X$으 ㅣ불확실성을 수치화해보면:
+        - $X=0$일 확률이 $p$이고 $X=1$ 일 확률이 $1-p$인 경우,
+        $H(X)=-plogp-(1-p)log(1-p)는 X의 불확실성을 측정하는 하나의 물리량이 된다.
+
 
 ## Key Concepts
 - 
@@ -43,4 +48,5 @@ summary: "정보 엔트로피 학습내용 정리"
 
 ## References
 - https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC
-- 
+- https://horizon.kias.re.kr/18474/
+
