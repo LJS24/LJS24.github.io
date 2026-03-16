@@ -26,20 +26,26 @@ summary: "정보 엔트로피 학습내용 정리"
 즉, **정보 엔트로피는 '어떤 상태에서의 불확실성', 또는 이와 동등한 의미로 '평균 정보량'을 의미**하는 것이다. 
 - 참고로 엔트로피라는 명칭이 붙은 이유는, 후술할 섀넌의 정보이론에 등장하는 수식이 열역학적 엔트로피의 공식과 상당 부분 비슷하기 때문이다.<br>
 
-<center>![그림 1](/assets/images/Entropy_kor.jpg)</center>
+<center>
 
- <center>그림 1: 발생가능확률(가능도)와 정보량(비트 단위)의 관계 그래프.</center>
+![그림 1](/assets/images/Entropy_kor.jpg)
+
+</center>
+
+ <center>
+ 그림 1: 발생가능확률(가능도)와 정보량(비트 단위)의 관계 그래프.
+ </center>
 
  
 ### 3) 섀넌의 정보이론
-- 1948년 벨 연구소의 클로드 섀넌Claude Shannon이 발표한, “A mathematical theory of communication” 이라는 논문에는 Entropy, mutual information이라는 
+- 1948년 벨 연구소의 클로드 섀넌Claude Shannon이 발표한, “A mathematical theory of communication” 이라는 논문에는 **Entropy**, **mutual information**이라는 
 두 가지 물리량이 제시되었다.
 
-- Entropy:
+- **Entropy**:
     - 2가지 가능성을 지닌 무작위 변수 $X$의 불확실성을 수치화해보면:
         - $X=0$일 확률이 $p$이고 $X=1$ 일 확률이 $1-p$인 경우, <br>
         $H(X)=-plogp-(1-p)log(1-p)$는 $X$의 불확실성을 측정하는 하나의 물리량이 된다.
-        - $p=0 or p=1$인 경우, $H(X)=0$으로 불확실성이 없어지고,
+        - $p=0 &nbsp;or&nbsp; p=1$인 경우, $H(X)=0$으로 불확실성이 없어지고,
         $p=0.5$인 경우, $H(X)=1[bit]$로 한 번의 질문이 필요한 불확실성이 생긴다. 
 
 
