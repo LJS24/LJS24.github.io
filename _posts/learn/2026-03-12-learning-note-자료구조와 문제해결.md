@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자료구조와 문제해결 정리-1"
-date: 2026-03-06
+date: 2026-03-12
 categories: [learn]
 tags: [writing, note]
 level: beginner
