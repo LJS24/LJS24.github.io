@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "컴퓨터개론 정리-1"
+title: "컴퓨터개론 정리-2"
 date: 2026-03-12
 categories: [learn]
 tags: [writing, note]

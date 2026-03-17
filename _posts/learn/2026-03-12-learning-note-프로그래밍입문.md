@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "프로그래밍입문 정리-1"
+title: "프로그래밍입문 정리-2"
 date: 2026-03-12
 categories: [learn]
 tags: [writing, note]
