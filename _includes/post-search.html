@@ -1,19 +1,32 @@
 <section class="section-card post-search-card" data-post-search>
-  <div class="section-head">
-    <h2>{{ include.title | default: "Search By Tag" }}</h2>
+  <div class="post-search-topline">
+    <p class="hero-label">Post Search</p>
+    <p class="post-search-status" data-post-search-status></p>
   </div>
-  <p class="post-search-text">{{ include.description | default: "Filter posts by entering a tag or selecting one below." }}</p>
-  <label class="post-search-label" for="{{ include.input_id | default: 'post-tag-search' }}">Tag search</label>
-  <input
-    id="{{ include.input_id | default: 'post-tag-search' }}"
-    class="post-search-input"
-    type="search"
-    placeholder="{{ include.placeholder | default: 'Search tags' }}"
-    autocomplete="off"
-    data-post-search-input>
-  <div class="post-search-actions">
-    <button class="btn btn-ghost post-search-reset" type="button" data-post-search-reset>Clear</button>
+  <div class="post-search-layout">
+    <div class="post-search-copy">
+      <h2>{{ include.title | default: "Search Posts" }}</h2>
+      <p class="post-search-text">{{ include.description | default: "Filter posts by title or tag, or select a tag below." }}</p>
+    </div>
+    <div class="post-search-controls">
+      <label class="post-search-label" for="{{ include.input_id | default: 'post-tag-search' }}">Title or tag</label>
+      <div class="post-search-input-wrap">
+        <span class="post-search-symbol">#</span>
+        <input
+          id="{{ include.input_id | default: 'post-tag-search' }}"
+          class="post-search-input"
+          type="search"
+          placeholder="{{ include.placeholder | default: 'Search titles or tags' }}"
+          autocomplete="off"
+          data-post-search-input>
+        <button class="post-search-reset" type="button" data-post-search-reset>Clear</button>
+      </div>
+    </div>
+  </div>
+  <div class="post-search-chip-head">
+    <p class="post-search-chip-title">Available tags</p>
+    <p class="post-search-chip-help">Click a tag chip to filter instantly.</p>
   </div>
   <div class="post-search-chip-list" data-post-search-chips></div>
-  <p class="post-search-status" data-post-search-status></p>
 </section>
+

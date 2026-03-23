@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let activeTag = "";
 
   const updateStatus = (visibleCount) => {
-    if (!status) {
+    if (!status || !input) {
       return;
     }
 
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    status.textContent = `Found ${visibleCount} post${visibleCount === 1 ? "" : "s"} for tag "${input.value.trim()}".`;
+    status.textContent = `Found ${visibleCount} post${visibleCount === 1 ? "" : "s"} for "${input.value.trim()}".`;
   };
 
   const filterPosts = (query) => {
@@ -41,12 +41,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let visibleCount = 0;
 
     items.forEach((item) => {
+      const title = (item.dataset.title || "").trim();
       const tags = (item.dataset.tags || "")
         .split(",")
         .map((tag) => tag.trim())
         .filter(Boolean);
 
-      const isVisible = !normalizedQuery || tags.some((tag) => tag.includes(normalizedQuery));
+      const isVisible = !normalizedQuery
+        || title.includes(normalizedQuery)
+        || tags.some((tag) => tag.includes(normalizedQuery));
+
       item.hidden = !isVisible;
 
       if (isVisible) {
@@ -68,24 +72,31 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   if (chipList) {
-    allTags.forEach((tag) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "post-search-chip";
-      button.textContent = tag;
-      button.dataset.tagChip = tag;
-      button.addEventListener("click", () => {
-        if (!input) {
-          return;
-        }
+    if (allTags.length === 0) {
+      const emptyState = document.createElement("p");
+      emptyState.className = "post-search-empty";
+      emptyState.textContent = "No tags available yet.";
+      chipList.appendChild(emptyState);
+    } else {
+      allTags.forEach((tag) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "post-search-chip";
+        button.textContent = tag;
+        button.dataset.tagChip = tag;
+        button.addEventListener("click", () => {
+          if (!input) {
+            return;
+          }
 
-        activeTag = activeTag === tag ? "" : tag;
-        input.value = activeTag;
-        updateChipState();
-        filterPosts(activeTag);
+          activeTag = activeTag === tag ? "" : tag;
+          input.value = activeTag;
+          updateChipState();
+          filterPosts(activeTag);
+        });
+        chipList.appendChild(button);
       });
-      chipList.appendChild(button);
-    });
+    }
   }
 
   if (input) {
