@@ -11,7 +11,7 @@ title: Home
 
 <section class="hero-card">
   <p class="hero-label">Research-driven Tech Blog</p>
-  <h2>A technical journal for learning notes, research reports, and project sharing.</h2>
+  <h2>Personal note for learning notes, research reports, and project sharing.</h2>
   <p class="hero-text">
     Posts on this blog are based on personal learning, research, and development. There may be expressive and technical deficiencies.
   </p>
