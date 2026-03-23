@@ -12,7 +12,7 @@ post_search: true
   <p class="hero-text">This section stores reusable learning records from study and practice.</p>
 </section>
 
-{% include post-search.html title="Search Learning Tags" description="Find learning posts by tag." input_id="learn-tag-search" placeholder="Search learning tags" %}
+{% include post-search.html title="Search Learning Posts" description="Find learning posts by title keyword or tag." input_id="learn-tag-search" placeholder="Search learning titles or tags" %}
 
 <section class="section-card">
   <h2>Learning Notes</h2>

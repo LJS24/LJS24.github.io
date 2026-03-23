@@ -12,7 +12,7 @@ post_search: true
   <p class="hero-text">This section focuses on goals, design choices, metrics, and technical retrospectives.</p>
 </section>
 
-{% include post-search.html title="Search Project Tags" description="Find project posts by tag." input_id="project-tag-search" placeholder="Search project tags" %}
+{% include post-search.html title="Search Project Posts" description="Find project posts by title keyword or tag." input_id="project-tag-search" placeholder="Search project titles or tags" %}
 
 <section class="section-card">
   <h2>Project Sharing</h2>

@@ -345,18 +345,11 @@ a:hover {
 .post-search-input-wrap {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
   border: 1px solid #bfdbfe;
   border-radius: 16px;
   padding: 0.35rem 0.4rem 0.35rem 0.8rem;
   background: #ffffff;
   box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
-}
-
-.post-search-symbol {
-  color: var(--point);
-  font-weight: 800;
-  font-size: 1rem;
 }
 
 .post-search-input {
@@ -377,17 +370,29 @@ a:hover {
 .post-search-reset {
   border: 0;
   border-radius: 999px;
+  border: 1px solid #bfdbfe;
   padding: 0.55rem 0.9rem;
   background: var(--point-soft);
   color: var(--point-strong);
   font: inherit;
   font-size: 0.82rem;
   font-weight: 800;
+  line-height: 1;
   cursor: pointer;
+  white-space: nowrap;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .post-search-reset:hover {
+  border-color: var(--point);
   background: #dbeafe;
+}
+
+.post-search-reset:focus-visible {
+  outline: 0;
+  border-color: var(--point);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
 }
 
 .post-search-chip-head {

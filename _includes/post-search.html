@@ -11,7 +11,6 @@
     <div class="post-search-controls">
       <label class="post-search-label" for="{{ include.input_id | default: 'post-tag-search' }}">Title or tag</label>
       <div class="post-search-input-wrap">
-        <span class="post-search-symbol">#</span>
         <input
           id="{{ include.input_id | default: 'post-tag-search' }}"
           class="post-search-input"
@@ -25,7 +24,7 @@
   </div>
   <div class="post-search-chip-head">
     <p class="post-search-chip-title">Available tags</p>
-    <p class="post-search-chip-help">Click a tag chip to filter instantly.</p>
+    <p class="post-search-chip-help">Type a title keyword or click a tag chip to filter instantly.</p>
   </div>
   <div class="post-search-chip-list" data-post-search-chips></div>
 </section>
