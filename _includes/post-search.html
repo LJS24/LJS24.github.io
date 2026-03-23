@@ -1,0 +1,19 @@
+<section class="section-card post-search-card" data-post-search>
+  <div class="section-head">
+    <h2>{{ include.title | default: "Search By Tag" }}</h2>
+  </div>
+  <p class="post-search-text">{{ include.description | default: "Filter posts by entering a tag or selecting one below." }}</p>
+  <label class="post-search-label" for="{{ include.input_id | default: 'post-tag-search' }}">Tag search</label>
+  <input
+    id="{{ include.input_id | default: 'post-tag-search' }}"
+    class="post-search-input"
+    type="search"
+    placeholder="{{ include.placeholder | default: 'Search tags' }}"
+    autocomplete="off"
+    data-post-search-input>
+  <div class="post-search-actions">
+    <button class="btn btn-ghost post-search-reset" type="button" data-post-search-reset>Clear</button>
+  </div>
+  <div class="post-search-chip-list" data-post-search-chips></div>
+  <p class="post-search-status" data-post-search-status></p>
+</section>

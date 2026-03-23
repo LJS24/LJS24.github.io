@@ -51,5 +51,8 @@
     <footer class="container site-footer">
       <p>Built with GitHub Pages. Structured for learning, research, and project sharing.</p>
     </footer>
+    {% if page.post_search %}
+    <script defer src="{{ '/assets/js/post-search.js' | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>

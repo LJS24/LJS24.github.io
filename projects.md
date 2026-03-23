@@ -2,6 +2,7 @@
 layout: default
 title: Projects
 permalink: /projects/
+post_search: true
 ---
 {% assign posts = site.posts | where_exp: "post", "post.categories contains 'projects'" %}
 
@@ -10,6 +11,8 @@ permalink: /projects/
   <h2>Architecture and implementation decisions</h2>
   <p class="hero-text">This section focuses on goals, design choices, metrics, and technical retrospectives.</p>
 </section>
+
+{% include post-search.html title="Search Project Tags" description="Find project posts by tag." input_id="project-tag-search" placeholder="Search project tags" %}
 
 <section class="section-card">
   <h2>Project Sharing</h2>

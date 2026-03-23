@@ -259,6 +259,10 @@ a:hover {
   border-bottom: 0;
 }
 
+.post-item[hidden] {
+  display: none;
+}
+
 .post-link {
   font-size: 1.02rem;
   font-weight: 700;
@@ -279,6 +283,106 @@ a:hover {
   margin: 0.45rem 0 0;
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.post-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+
+.post-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #f8fbff;
+  border: 1px solid #d7e8ff;
+  color: #1d4ed8;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.post-search-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+}
+
+.post-search-text {
+  margin: 0.3rem 0 0.9rem;
+  color: var(--muted);
+}
+
+.post-search-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.post-search-input {
+  width: 100%;
+  border: 1px solid #bfdbfe;
+  border-radius: 14px;
+  padding: 0.82rem 0.95rem;
+  font: inherit;
+  color: var(--text);
+  background: #ffffff;
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
+}
+
+.post-search-input:focus {
+  outline: 0;
+  border-color: var(--point);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.post-search-actions {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-search-reset {
+  padding-inline: 0.9rem;
+}
+
+.post-search-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.post-search-chip {
+  border: 1px solid #d7e8ff;
+  background: #ffffff;
+  color: #1d4ed8;
+  border-radius: 999px;
+  padding: 0.38rem 0.72rem;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.post-search-chip:hover {
+  border-color: #93c5fd;
+  background: #eff6ff;
+}
+
+.post-search-chip.is-active {
+  background: var(--point);
+  border-color: var(--point);
+  color: #ffffff;
+}
+
+.post-search-status {
+  margin: 0.95rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .post {
