@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "정보 엔트로피"
+title: "인공지능과 스마트모빌리티 1차 토론"
 date: 2026-04-03
 categories: [learn]
 tags: [searching, note]
