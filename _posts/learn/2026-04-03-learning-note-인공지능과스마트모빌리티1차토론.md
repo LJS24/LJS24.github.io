@@ -78,9 +78,7 @@ IEEE에 게재된 다수의 연구는 스마트시티 환경에서 보행자 감
 [4] EU General Data Protection Regulation (GDPR), Article 9 (2018)<br/>
 [5] EU Artificial Intelligence Act, Article 5 — Prohibited AI Practices (발효 2025.2.)<br/>
 [6] EDPB, Guidelines 05/2022 on the use of facial recognition technology in the area of law enforcement (2023)<br/>
-[7] UK ICO, Biometric Data Guidance: How do we process biometric data lawfully? (2023)
-<br/>
-
+[7] UK ICO, Biometric Data Guidance: How do we process biometric data lawfully? (2023)<br/>
 [8] IEEE Xplore — Petrović et al., "Real-Time Video Anonymization in Smart City Intersections," IEEE GLOBECOM (2022). DOI: 10.1109/GLOBECOM48099.2022.9973552<br/>
 [9] IEEE Xplore — "Privacy-Preserving Pedestrian Detection for Smart City with Edge Computing," IEEE (2019). DOI: 10.1109/8927923<br/>
 [10] IEEE Transactions — "Anonymization and De-Anonymization of Mobility Trajectories," IEEE (2019). DOI: 10.1109/TNET.2019.2896049<br/>
