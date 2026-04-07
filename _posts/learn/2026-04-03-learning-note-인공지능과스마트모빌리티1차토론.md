@@ -62,24 +62,27 @@ IEEE에 게재된 다수의 연구는 스마트시티 환경에서 보행자 감
 - 스마트모빌리티의 안전성 증대라는 목표는 정당하다. 그러나 그 목표를 달성하기 위해 공공 공간에 있는 불특정 시민들의 얼굴을 동의 없이 실시간으로 수집하고 AI 학습에 활용하는 것은 
 법적으로 위법하다는 점, 사전 동의의 확보가 구조적으로 불가능하다는 점, 기술적으로 불필요하다는 점에서 허용될 수 없다.
 
-
+<hr/>
 
 ## Key Concepts
-- 
 
 ## p.s.
 
 
 ## References
-[1] 한국 「개인정보 보호법」 제23조(민감정보의 처리 제한), 제3조(개인정보 보호 원칙)
-[2] 개인정보보호위원회, 「AI 시대 안전한 개인정보 활용 정책방향」 (2023.8.)
-[3] 개인정보보호위원회, 「AI 개발·서비스를 위한 공개된 개인정보 처리 안내서」 (2024.7.)
-[4] EU General Data Protection Regulation (GDPR), Article 9 (2018)
-[5] EU Artificial Intelligence Act, Article 5 — Prohibited AI Practices (발효 2025.2.)
-[6] EDPB, Guidelines 05/2022 on the use of facial recognition technology in the area of law enforcement (2023)
+<hr/>
+
+[1] 한국 「개인정보 보호법」 제23조(민감정보의 처리 제한), 제3조(개인정보 보호 원칙)<br/>
+[2] 개인정보보호위원회, 「AI 시대 안전한 개인정보 활용 정책방향」 (2023.8.)<br/>
+[3] 개인정보보호위원회, 「AI 개발·서비스를 위한 공개된 개인정보 처리 안내서」 (2024.7.)<br/>
+[4] EU General Data Protection Regulation (GDPR), Article 9 (2018)<br/>
+[5] EU Artificial Intelligence Act, Article 5 — Prohibited AI Practices (발효 2025.2.)<br/>
+[6] EDPB, Guidelines 05/2022 on the use of facial recognition technology in the area of law enforcement (2023)<br/>
 [7] UK ICO, Biometric Data Guidance: How do we process biometric data lawfully? (2023)
-[8] IEEE Xplore — Petrović et al., "Real-Time Video Anonymization in Smart City Intersections," IEEE GLOBECOM (2022). DOI: 10.1109/GLOBECOM48099.2022.9973552
-[9] IEEE Xplore — "Privacy-Preserving Pedestrian Detection for Smart City with Edge Computing," IEEE (2019). DOI: 10.1109/8927923
-[10] IEEE Transactions — "Anonymization and De-Anonymization of Mobility Trajectories," IEEE (2019). DOI: 10.1109/TNET.2019.2896049
+<br/>
+
+[8] IEEE Xplore — Petrović et al., "Real-Time Video Anonymization in Smart City Intersections," IEEE GLOBECOM (2022). DOI: 10.1109/GLOBECOM48099.2022.9973552<br/>
+[9] IEEE Xplore — "Privacy-Preserving Pedestrian Detection for Smart City with Edge Computing," IEEE (2019). DOI: 10.1109/8927923<br/>
+[10] IEEE Transactions — "Anonymization and De-Anonymization of Mobility Trajectories," IEEE (2019). DOI: 10.1109/TNET.2019.2896049<br/>
 [11] IAPP — "Biometrics in the EU: Navigating the GDPR, AI Act" (2025.4.)
 
