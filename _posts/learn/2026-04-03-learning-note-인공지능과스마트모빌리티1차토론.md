@@ -1,5 +1,6 @@
 ---
 layout: post
+post_class: post-key-blue
 title: "인공지능과 스마트모빌리티 1차 토론"
 date: 2026-04-03
 categories: [learn]
@@ -13,7 +14,7 @@ summary: "인공지능과 스마트모빌리티 1차 토론 학습내용 정리"
 
 ### 0) 개요
 - 주제는 다음과 같다:
-<hr/>
+<br/>
 인공지능은 학습 데이터가 필요합니다. 특히 스마트모빌리티에서 사람을 탐지하고 회피하기 위해서는 사람의 이미지가 필요합니다. 인공지능 학습을 위해 실시간으로 사람의 얼굴을 학습 데이터로 저장하고 사용하는 것은 괜찮을까요?
 <hr/>
 
@@ -58,7 +59,7 @@ IEEE에 게재된 다수의 연구는 스마트시티 환경에서 보행자 감
 
 <hr/>
 
-### V)  결론
+### V  결론
 - 스마트모빌리티의 안전성 증대라는 목표는 정당하다. 그러나 그 목표를 달성하기 위해 공공 공간에 있는 불특정 시민들의 얼굴을 동의 없이 실시간으로 수집하고 AI 학습에 활용하는 것은 
 법적으로 위법하다는 점, 사전 동의의 확보가 구조적으로 불가능하다는 점, 기술적으로 불필요하다는 점에서 허용될 수 없다.
 
@@ -83,4 +84,3 @@ IEEE에 게재된 다수의 연구는 스마트시티 환경에서 보행자 감
 [9] IEEE Xplore — "Privacy-Preserving Pedestrian Detection for Smart City with Edge Computing," IEEE (2019). DOI: 10.1109/8927923<br/>
 [10] IEEE Transactions — "Anonymization and De-Anonymization of Mobility Trajectories," IEEE (2019). DOI: 10.1109/TNET.2019.2896049<br/>
 [11] IAPP — "Biometrics in the EU: Navigating the GDPR, AI Act" (2025.4.)
-
