@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "디지털논리회로 정리-7"
+title: "프로그래밍입문 정리-7"
 date: 2026-04-08
 categories: [learn]
 tags: [writing, note]
@@ -9,33 +9,21 @@ summary: "주간 학습내용 정리"
 ---
 
 ## What I Learned
-- 이번 주에는 진수의 변환 정리에 대해 학습하였다.
+이번 주에는 python 반복문에 대해 학습하였다.
 
 ### 1) 
-- 
 
 ### 2) 
+1. 
 
-
-
-### 3)
-
+### 3) 
+1. 
 
 ### 4) 
 
-### 5) 
-
-
-#### 
-
-
-
-
-### 8)
-
 
 ## Key Concepts
-
+- 
 
 ## p.s.
 
