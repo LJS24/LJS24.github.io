@@ -9,7 +9,7 @@ summary: "주간 학습내용 정리"
 ---
 
 ## What I Learned
-- 불 대수, 드 모르간의 법칙 외
+- XOF, Gray code 외
 
 ### 1) 
 - 
