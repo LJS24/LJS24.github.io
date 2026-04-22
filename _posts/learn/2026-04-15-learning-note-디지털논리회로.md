@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "디지털논리회로 정리-7"
-date: 2026-04-08
+title: "디지털논리회로 정리-8"
+date: 2026-04-15
 categories: [learn]
 tags: [writing, note]
 level: beginner
