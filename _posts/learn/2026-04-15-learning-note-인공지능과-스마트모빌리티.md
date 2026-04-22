@@ -1,6 +1,5 @@
 ---
-layout: post
-title: "디지털논리회로 정리-8"
+title: "인공지능과스마트모빌리티 정리-8"
 date: 2026-04-15
 categories: [learn]
 tags: [writing, note]
@@ -11,31 +10,11 @@ summary: "주간 학습내용 정리"
 ## What I Learned
 - 
 
-### 1) 
-- 
-
-### 2) 
-
-
-
-### 3)
-
-
-### 4) 
-
-### 5) 
-
-
-#### 
-
-
-
-
-### 8)
 
 
 ## Key Concepts
-
+- 
+- 
 
 ## p.s.
 

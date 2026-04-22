@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "디지털논리회로 정리-8"
+title: "프로그래밍입문 정리-8"
 date: 2026-04-15
 categories: [learn]
 tags: [writing, note]
@@ -12,30 +12,18 @@ summary: "주간 학습내용 정리"
 - 
 
 ### 1) 
-- 
 
 ### 2) 
+1. 
 
-
-
-### 3)
-
+### 3) 
+1. 
 
 ### 4) 
 
-### 5) 
-
-
-#### 
-
-
-
-
-### 8)
-
 
 ## Key Concepts
-
+- 
 
 ## p.s.
 

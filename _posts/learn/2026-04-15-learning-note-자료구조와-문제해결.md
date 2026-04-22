@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "디지털논리회로 정리-8"
+title: "자료구조와 문제해결 정리-8"
 date: 2026-04-15
 categories: [learn]
 tags: [writing, note]
@@ -11,30 +11,28 @@ summary: "주간 학습내용 정리"
 ## What I Learned
 - 
 
-### 1) 
-- 
-
-### 2) 
+### 1)
 
 
+### 2)
 
-### 3)
 
+### 3) 
 
 ### 4) 
 
 ### 5) 
 
+### 6)
 
-#### 
-
-
-
+### 7)
 
 ### 8)
 
 
 ## Key Concepts
+- 
+
 
 
 ## p.s.

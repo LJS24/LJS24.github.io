@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "디지털논리회로 정리-8"
-date: 2026-04-15
+title: "디지털논리회로 정리-7"
+date: 2026-04-08
 categories: [learn]
 tags: [writing, note]
 level: beginner
@@ -9,7 +9,7 @@ summary: "주간 학습내용 정리"
 ---
 
 ## What I Learned
-- 
+- 불 대수, 드 모르간의 법칙 외
 
 ### 1) 
 - 
