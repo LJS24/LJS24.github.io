@@ -72,7 +72,7 @@ while True: # 3번(종료)을 선택할 때까지 메뉴 반복
         print(f"총 : {total_fee}원 ")        # 총 배달비 출력
         print("………………………………………………")
 
-    elif choice == "2":  # 2번 선택: 결제 금액 확인 (어떤 순서로 선택해도 작동)
+    elif choice == "2":  # 2번 선택: 결제 금액 확인
 
         print(f"[총 결재 금액 – {food_total + total_fee} 원]")  # 음식 총액 + 배달비
         print(f"<음식 금액 – {food_total}원>")                  # 음식 총액
